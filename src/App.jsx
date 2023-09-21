@@ -60,7 +60,6 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<Login />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/:mediaType/:id" element={<Details />} />
                 <Route path="/search/:query" element={<SearchResult />} />
